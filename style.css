@@ -50,6 +50,7 @@ ul a:hover{
   @media only screen and (max-width:661px){
       .waviy{
         font-size: 32px;
+	top: 100px;
       }
       #img0{
         width: 200px;
