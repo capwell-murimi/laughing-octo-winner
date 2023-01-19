@@ -55,6 +55,9 @@ ul a:hover{
         width: 200px;
         height: 200px;
       }
+     .profile{
+    width: 50px;
+      }
   }
   .waviy span {
     font-family: 'Alfa Slab One',Arial, Helvetica, sans-serif,cursive;
