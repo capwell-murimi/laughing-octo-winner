@@ -1,0 +1,30 @@
+.functionals{
+    margin: 0 auto;
+    display: block;
+    background: yellow;
+    color: green;
+    margin-top: 7px;
+    border-radius: 7px;
+    border: 1px;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 10px;
+}
+.functionals:hover{
+    background: red;
+    color: aqua;
+}
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+@media only screen and (max-width:661px){
+ h1{
+    font-size: large;
+ }
+}
+.agecalculator{
+ margin-top:200px;
+}

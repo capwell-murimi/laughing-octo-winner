@@ -1,0 +1,34 @@
+body{
+    background: url(cards.jpg) no-repeat;
+    background-size: cover;
+}
+#sasa{
+    display: block;
+    margin: 0 auto;
+    background: black;
+    color: aqua;
+    border-radius: 7px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+#black-el{
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   justify-items: center;
+}
+#action{
+    display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   justify-items: center;
+}
+#blackjacksum{
+    display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   justify-items: center;
+}

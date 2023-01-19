@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>Document</title>
+</head>
+<body  style="background: black;">
+   <a style="text-decoration: none;" href="index.html"><button style="
+   background: orange; 
+   border-radius: 7px;
+   border: 20px;
+   padding: 7px;
+
+   color: black;
+   margin-left: 10px;
+   ">"BACK"</button></a> 
+
+   <button onclick="darktheme()" style="
+   background: black;
+   border-radius: 7px;
+   border: 20px;
+   margin: 2px;
+   padding: 7px;
+   position: flex;
+    float: right;
+   ">DARK THEME</button> 
+   
+   <button onclick="lighttheme()" style="
+   display: grid;
+   padding: 7px;
+   margin: 2px;
+   border: 7px;
+   border-radius: 7px;
+   background: white;
+   color: white;
+   margin: 0 auto;
+   float: right;
+   margin-right: 0px;
+ ">LIGHT THEME</button>
+   
+   <div class="agecalculator">
+        <h1 style="color: blanchedalmond;">THIS WILL CALCULATE YOUR AGE</h1>
+        <button class="functionals" onclick="ageInDays()">REVEAL AGE IN DAYS</button>
+        <button class="functionals" onclick="ageInYears()"> REVEAL AGE IN YEARS</button>
+        <button class="functionals" onclick="reset()">RESET</button>
+        <h1 style="color: yellow;" id="days-el">AGE IN DAYS:</h1>
+        <h1 style="color: red;" id="years-el">AGE IN YEARS:</h1>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

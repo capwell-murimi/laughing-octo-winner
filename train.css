@@ -1,0 +1,28 @@
+body{
+    background: black;
+    background-size: cover;
+}
+button{
+    background: yellow; 
+    margin: 0 auto;
+    display: block;
+    border: 7px; 
+    margin-top: 4px;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+}
+button:hover{
+    background-color: red;
+    color: aquamarine;
+}
+@media only screen and (max-width: 991px){
+    h1{
+       font-size: large;
+    }
+}
+.train{
+    margin-top: 200px;
+}

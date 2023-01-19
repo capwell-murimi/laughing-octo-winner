@@ -1,0 +1,130 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    background: black;
+    overflow: none;
+}
+h1{
+    color: whitesmoke;
+}
+ul a{
+    text-decoration: none;
+    list-style: none;
+    color: aqua;
+    display: block;
+    padding: 12px;
+}
+ul a:hover{
+    color: red;
+}
+.nav{
+    position: sticky;
+    top: 0px;
+   /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;*/
+}
+.menu{
+   position: flex;
+   float: right;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+    padding: 10px;
+}
+.profile{
+    width: 100px;
+    clip-path: circle();
+    position:static;
+}
+.waviy {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 60px;
+    text-align: center;
+    top: 250px;
+    
+  }
+  @media only screen and (max-width:661px){
+      .waviy{
+        font-size: 15px;
+      }
+      #img0{
+        width: 200px;
+        height: 200px;
+      }
+  }
+  .waviy span {
+    font-family: 'Alfa Slab One',Arial, Helvetica, sans-serif,cursive;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+  #Home{
+    width: 100%;
+    height: 100vh;
+    background: black;
+  }
+  #Projects {
+    background: black;
+    height: 100vh;
+    width: 100%;
+    padding: 3rem 4rem;
+    box-sizing: border-box;
+  }
+  #Projects h1{
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  #Projects img{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  #Projects img{
+    -webkit-filter: grayscale(0) blur(0);
+  	filter: grayscale(0) blur(0);
+	 -webkit-transition: .3s ease-in-out;
+	  transition: .3s ease-in-out;
+    cursor: pointer;
+  }
+  #Projects img:hover{
+    -webkit-filter: grayscale(100%) blur(3px);
+	  filter: grayscale(100%) blur(3px);
+  }
+  #Projects a{
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: aqua;
+    transition: 0.5s;
+    font-size: 2em;
+  }
+  #Projects a:hover{
+    color: yellow;
+  }
+
+  #Socials{
+    height: 50vh;
+    background: aqua;
+  }
+  section{
+    scroll-behavior: smooth;
+  }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="train.css">
+    <title>Document</title>
+</head>
+<body>
+    <a style="text-decoration: none;" href="index.html"><button style="
+        background: orange; 
+        border-radius: 7px;
+        border: 20px;
+        padding: 7px;
+        width: 90px;
+        color: black;
+        margin-left: 10px;
+        ">"BACK"</button></a> 
+        
+        <button onclick="darktheme()" style="
+   background: black;
+   border-radius: 7px;
+   width: 90px;
+   height: 34px;
+   border: 20px;
+   margin: 2px;
+   padding: 7px;
+   position: flex;
+    float: right;
+   ">DARK THEME</button> 
+   
+   <button onclick="lighttheme()" style="
+   display: grid;
+   padding: 7px;
+   width: 90px;
+   height: 34px;
+   margin: 2px;
+   border: 7px;
+   border-radius: 7px;
+   background: white;
+   color: white;
+   margin: 0 auto;
+   float: right;
+   margin-right: 0px;
+ ">LIGHT THEME</button>
+
+    <div class="train">
+    <h1 style="display: flex; justify-content: center; align-items: center; color: aqua;" >THIS IS A SIMPLE PEOPLE COUNTER</h1>
+    <h1 style="display: flex; align-items: center;justify-content: center; font-size: 2em; color: aqua;" id="count-el">0</h1>
+    <button id="count"  onclick="count()">CLICK TO COUNT</button>
+    <button id="reset" style="background: green;" onclick="resetc()">RESET</button>
+    <button style="background: orange;" onclick="save()">SAVE</button>
+    <h1 style="font-size: 2em; color: blanchedalmond; display: flex; align-items: center; justify-content: center;" id="save-el"></h1>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
